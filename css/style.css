@@ -1,0 +1,396 @@
+body{
+  background-color: #fff;
+}
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer{
+  background-color: #353e54;
+  padding: 20px;
+}
+
+.arrow_btn{
+  background-image: url("../img/image21.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.arrow_btn>*{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+#slider-next , #slider-prev{
+  position: absolute;
+  margin: auto;
+  height: 5vw;
+  width: 5vw;
+  top:35vw;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#slider-next{
+  transform: rotate(180deg);
+  right: 0;
+}
+
+#slider-prev{
+  left: 0;
+}
+
+.slider{
+  text-align: center;
+}
+
+
+.bx-wrapper{
+  background: transparent!important;
+}
+
+.bx-pager{
+  position: relative;
+  margin: auto;
+  margin-left: -50px;
+  display: inline-block;
+  width: auto !important;
+  background-color: #546386;
+  padding:10px !important;
+  border-radius: 5px;
+
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a.active{
+  background: #00c79d !important;
+}
+
+.btn{
+  display: inline-block;
+  padding: 2vw 4vw;
+  background-color: rgb(0, 199, 157);
+  color: #fff;
+  font-family: fantasy;
+  font-weight: bold;
+  border-radius: 2px;
+  font-size: 2vw;
+}
+
+
+.btn:hover{
+  background-color: rgba(0, 199, 157, 0.5);
+  border: solid 2px #00c79d;
+  padding: 1.9vw 3.9vw;
+}
+
+.page{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 70vw;
+}
+.page h1{
+  color: white;
+  font-size: 4vw;
+}
+
+.page p{
+  color: #a3acbf;
+  font-family: fantasy;
+  font-size: 2vw;
+}
+
+.page .container{
+  position: absolute;
+  margin: auto;
+  width: 60%;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.page .btn {
+  margin-top: 30px;
+}
+
+.page1{
+  background-image: url("../img/image1.png");
+}
+
+.page1 .container{
+  height: 50%;
+}
+
+.page2{
+  background-image: url("../img/image2.png");
+}
+
+.page2 .container, .page4 .container{
+  text-align: right;
+  height: 60%;
+}
+.page3{
+  background-image: url("../img/image3.png");
+}
+
+.page3 .container{
+  text-align: left;
+  height: 58%;
+}
+
+.page3 h1>span{
+  background-color: #546386;
+  white-space: nowrap;
+  line-height: 4.5vw;
+}
+
+.page4{
+  background-image: url("../img/image4.png");
+}
+
+section{
+  position: relative;
+  color: #546386;
+  margin: auto;
+}
+body > section:nth-child(2){
+  padding-top: 200px;
+  text-align: center;
+}
+
+body > section:nth-child(2)>p, body > section:nth-child(3)>p{
+  margin: auto;
+  width: 55%;
+}
+
+body > section:nth-child(2)>.container{
+  margin: 70px auto;
+  width: 60%;
+}
+
+body > section:nth-child(2)>.container>div{
+  display: flex;
+  text-align: left;
+  margin: 10px;
+}
+
+body > section:nth-child(2)>.container>div img{
+  width: 60px;
+  height: 53px;
+  margin-right: 20px;
+  margin-top: 20px;
+  object-fit: contain;
+}
+
+body > section:nth-child(3){
+  padding: 100px 0;
+  background-color: #f2f4f7;
+  text-align: center;
+}
+
+body > section:nth-child(3)>div {
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+body > section:nth-child(3) section{
+  width: 60vw;
+  margin: 10px;
+}
+
+body > section:nth-child(3) section div.text{
+  background: #fff;
+  margin-top: -20px;
+  padding: 10px;
+}
+
+body > section:nth-child(3) section div.text>h1{
+  font-size: 2vw;
+}
+body > section:nth-child(3) section div.text>p{
+  font-size: 1.5vw;
+}
+
+body > section:nth-child(3) section div.text>h1{
+  color: #00c79d;
+  margin-top: 30px;
+}
+
+
+body > section:nth-child(3) section div.img{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vw;
+}
+
+body > section:nth-child(3) section div.img:hover:before{
+  content: "";
+  position: absolute;
+  background-color: #00bc9c;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+body > section:nth-child(3) section:nth-child(1) div.img{
+  background-image: url("../img/image6.png");
+}
+body > section:nth-child(3) section:nth-child(2) div.img{
+  background-image: url("../img/image7.png");
+}
+
+.bxslider2>li>div{
+  display: inline-block;
+  margin: auto;
+}
+
+.bxslider2 div.img{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20vw;
+  height: 20vw;
+  margin: 20px;
+}
+
+.bxslider2 > li:nth-child(2) div.img:nth-child(1),.bxslider2 > li:nth-child(3) div.img{
+  background-image: url("../img/image8.png");
+}
+.bxslider2 > li:nth-child(2) div.img:nth-child(2){
+  background-image: url("../img/image9.png");
+}
+.bxslider2 > li:nth-child(2) div.img:nth-child(3){
+  background-image: url("../img/image10.png");
+}
+
+.bxslider2 div.img>.content{
+    position: absolute;
+    background-color: rgba(0, 188, 156, 0.7);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.bxslider2 div.img>.content h1{
+  text-transform: capitalize;
+  font-size: 2vw;
+}
+.bxslider2 div.img>.content p{
+  font-size: 1.5vw;
+}
+
+.bxslider2 div.img>.content>div{
+  margin: auto;
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 80px;
+}
+
+.bxslider2 div.img:hover .content{
+  opacity: 1
+}
+
+div.slider:nth-child(4){
+  position: relative;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+div.slider:nth-child(4) .bx-pager{
+  background-color: transparent ;
+  bottom: -60px;
+}
+
+#next, #prev{
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+#next{
+  transform: rotate(180deg);
+  bottom: 5%;
+  right: 10%;
+}
+
+#prev{
+  bottom: 5%;
+  left: 10%;
+}
+
+@media only screen and (min-width:768px)  {
+  .page h1{
+    font-size: 40px;
+  }
+  .page p, .btn{
+    font-size: 14px;
+  }
+  body > section:nth-child(3) section div.text>h1,  .bxslider2 div.img>.content h1{
+    font-size: 15px;
+  }
+  body > section:nth-child(3) section div.text>p,  .bxslider2 div.img>.content p{
+    font-size: 12px;
+  }
+
+}
+
+@media only screen and (min-width:1024px){
+  .page{
+    height: 40vw;
+  }
+
+  #slider-next , #slider-prev{
+    height: 3vw;
+    width: 3vw;
+    top:0;
+    bottom: 0;
+  }
+
+  body > section:nth-child(2)>.container {
+    display: flex;
+  }
+  body > section:nth-child(3) section{
+    width: 30vw;
+    float: left;
+  }
+  body > section:nth-child(3) section div.img {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vw;
+}
+
+  .bxslider2 div.img{
+    width: 10vw;
+    height: 10vw;
+    float: left;
+    margin: 20px;
+  }
+}
